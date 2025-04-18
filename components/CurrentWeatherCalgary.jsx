@@ -1,4 +1,3 @@
-// components/CurrentWeatherCalgary.jsx
 import WeatherIcon from './WeatherIcon'
 
 export default function CurrentWeatherCalgary({ data }) {

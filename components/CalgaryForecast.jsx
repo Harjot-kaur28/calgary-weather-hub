@@ -1,4 +1,3 @@
-// components/CalgaryForecast.jsx
 import WeatherIcon from './WeatherIcon'
 import { format, parseISO } from 'date-fns'
 
@@ -18,7 +17,7 @@ const processForecastData = (list) => {
       dailyData[date].max = Math.max(dailyData[date].max, item.main.temp_max)
     }
   })
-  return Object.values(dailyData).slice(1, 6) // Get next 5 days
+  return Object.values(dailyData).slice(1, 6) //for Getting next 5 days
 }
 
 export default function CalgaryForecast({ data }) {

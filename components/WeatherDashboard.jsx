@@ -1,4 +1,3 @@
-// components/WeatherDashboard.jsx
 'use client'
 import { useEffect, useState } from 'react'
 import CurrentWeatherCalgary from './CurrentWeatherCalgary'

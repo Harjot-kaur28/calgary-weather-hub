@@ -1,4 +1,3 @@
-// components/WeatherIcon.jsx
 import { FaSun, FaCloud, FaCloudRain, FaSnowflake, FaBolt } from 'react-icons/fa'
 
 export default function WeatherIcon({ condition, size = 24, className }) {
