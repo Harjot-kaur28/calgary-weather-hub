@@ -1,3 +1,5 @@
+//calgary-weather-hub
+
 import WeatherIcon from './WeatherIcon'
 
 export default function CurrentWeatherCalgary({ data }) {
